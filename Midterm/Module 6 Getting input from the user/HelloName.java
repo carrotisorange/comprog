@@ -1,20 +1,32 @@
 import java.util.Scanner;
 public class HelloName {
     public static void main(String[] args) {
-        Scanner scanner  = new Scanner(System.in);
+      Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter your name: ");
-        String name = scanner.next(); 
+      System.out.println("Enter the your age?");
+      String type_of_user = scanner.nextLine();
 
-        System.out.print("Enter your age: ");
-        int age = scanner.nextInt(); 
+      // if(type == "savings"){
+      //   System.out.println("You've selected "+ type);
+      // }else{
+      //   System.out.println("You've selected " + type);
+      // }
 
-        System.out.print("Enter your salary: ");
-        double salary = scanner.nextDouble(); 
-
-        System.out.println("Hello " + name);
-        System.out.println("My age is " + age);
-        System.out.println("My salary is " + salary);
+      switch(type_of_user) 
+      {
+        case "Driver": ;
+          System.out.println("I can see the map.");
+          break;
+        case "Restaurants": ;
+          System.out.println("I can see orders.");
+          break;
+        case "Food lover": ;
+          System.out.println("I can see food.");
+          break;
+        default: 
+          System.out.println("I don't know what you mean.");
+        ;
+      }
         
     }
 }
