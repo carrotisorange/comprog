@@ -21,12 +21,13 @@ public class SampleSentinelControlledWhileLoop {
         while (number != SENTINEL) {
             sum = sum + number;
             number = scanner.nextInt();
+            counter++;
         }
 
-        System.out.printf("Line 7: The sum of %d numbers = %d%n", count, sum);
+        System.out.printf("Line 7: The sum of %d numbers = %d%n", counter, sum);
 
         if (counter != 0) {
-            System.out.printf("Line 9: The average = %d%n", (sum / count));
+            System.out.printf("Line 9: The average = %d%n", (sum / counter));
         } else {
             System.out.println("Line 11: No Input!");
         }

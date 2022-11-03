@@ -2,7 +2,8 @@
 // this program lets you enter 5 integer values and pring the sum and average.abstract
 
 import java.util.Scanner;
-public class SampleCounterControlledWhileLoop {
+
+public class SampleDoWhileLoop {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int num = 0;
@@ -11,16 +12,15 @@ public class SampleCounterControlledWhileLoop {
 
         System.out.println("Counter is " + counter);
 
-        while(counter < 5)
-        {
-            System.out.println("Counter is " + counter);
+        do {
             System.out.print("Enter a number");
-           
+
             num = scanner.nextInt();
             sum = sum + num;
             counter++;
-        }
+            
+        }while (counter < 5);
 
-        System.out.printf("Sum is %d \n Average is %d", sum, sum/5);
+        System.out.printf("Sum is %d \n Average is %d", sum, sum / 5);
     }
 }
