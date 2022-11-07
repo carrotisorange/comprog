@@ -24,10 +24,9 @@ public class FirstProblem{
 
         amountInvested = numberOfSharesSold * purchasePricePerShare;
         totalGrossProfit = numberOfSharesSold * sellingPricePerShare;
-        totalServiceCharges = totalGrossProfit * .015;
-        totalNetProfit = totalGrossProfit - amountInvested; 
+        totalServiceCharges = (amountInvested * .015) + (totalGrossProfit * .015);
+        totalNetProfit = totalGrossProfit - (amountInvested + totalServiceCharges); 
         
-
         System.out.println("Total amount invested is: " + amountInvested);
         System.out.println("Total service charges: " + totalServiceCharges);
         System.out.println("Total net profit: " + totalNetProfit);

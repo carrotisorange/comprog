@@ -3,4 +3,8 @@ The firm charges 1.5% service charges on the total amount for each transaction, 
 When Cindy sells stocks, she would like to know if she gained or lost on  a particular investment. 
 
 Write a program that allows Cindy to input the number of shares sold, the purchase price of each share, and the selling price of each share.
- The program outputs the amount of invested, the total service charges, amount gained or lost, and the amount received after selling the stock.
+ The program outputs the 
+ amount of invested, 
+ the total service charges,
+  amount gained or lost, 
+  and the amount received after selling the stock.

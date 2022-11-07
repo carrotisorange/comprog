@@ -17,7 +17,7 @@ public class SampleFlagControlledWhileLoop {
         num = (int) (Math.random() * 100);
         done = false;
 
-        while (!done) {
+        while (!done && counter<5) {
             System.out.println("Enter an integer greater or equal to 0 and less than 100.");
             guess = scanner.nextInt();
             counter++;
@@ -29,7 +29,7 @@ public class SampleFlagControlledWhileLoop {
             } else {
                 System.out.println("Your guess is higher than the number. \n Guess again!");
             }
-
+          
         }
         System.out.println("You lost!");
     }
