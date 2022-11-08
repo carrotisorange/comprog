@@ -1,27 +1,32 @@
 import java.util.Scanner;
+
 public class Demo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         //1. declaring an array
-        // int x[] = new int[5];
+        // int num = 0;
+        // int[] num = new int[10];
+      
+        // System.out.println(num);
         //1. Another example of declaring an array
-        //String[] s = new String[5];
+        // String[] s = new String[5];
         //2. assigning a value to an array (initialization)
         // s[0] = "Bruce";
         // s[1] = "Clark";
-        // s[2] = "Clark";
+        // s[2] = "Barry";
         // s[3] = "Hal";
         // s[4] = "Arthur";
         // s[5] = "asd";
         //2. alternate way to assign values to an array 
-        // String[] s = {"Bruce", "Clark", "Barry", "Hal", "Arthur"};
+        //String[] s = {"Bruce", "Clark", "Barry", "Hal", "Arthur"};
         //3. Printing out the value of an array
         // System.out.println(s[0]);
         // System.out.println(s[1]);
         // System.out.println(s[2]);
         // System.out.println(s[3]);
         // System.out.println(s[4]);
+        // System.out.println(s[5]);
         //3. alternate way to print the value of an array
         // for (int i = 0; i < s.length; i++) {
         //     System.out.println(s[i]);
@@ -41,11 +46,21 @@ public class Demo {
         //     sales[i] = 10.00;
         // }
 
+        // for (int i = 0; i < sales.length; i++) {
+        //     System.out.println("Element "+ i +": "+sales[i]);
+        // }
+    
+
         //2. Reading data into an array: The following loop inputs data into the array sales.
         //For simplicity, we assume that the data is entered at the keyboard one number per line.
         // for (int i = 0; i < sales.length; i++) {
+        //     System.out.print("Enter value to element: "+ i +" ");
         //     sales[i] = scanner.nextDouble();
         // } 
+
+        // for (int i = 0; i < sales.length; i++) {
+        //     System.out.println("Element "+ i +": "+sales[i]);
+        // }
 
         //3. Print an array: The following loop outputs the elements of array sales. 
         //For simplicity, we assume that the output goes to the screen.
@@ -58,6 +73,7 @@ public class Demo {
         //The following Java code finds the sum of the elements of the array sales (total sales)
         //and the average of the sale amount. 
         // sum = 0;
+        // average = 0;
         // for (int i = 0; i < sales.length; i++) {
         //     sum = sum + sales[i];
 
@@ -68,6 +84,9 @@ public class Demo {
         //     }
         // }
 
+        //     System.out.printf("Sum is %f and average is %f", sum, average);
+            
+
         //5. Determining the largest element in the array. 
         // int maxIndex = 0;
         // for (int i = 0; i < sales.length; i++) {
@@ -77,7 +96,7 @@ public class Demo {
         // }
         //     largestSale = sales[maxIndex];
 
-        //     System.out.println(largestSale);
+        //     System.out.println("The highest number is " + largestSale);
 
         //Array Index Out of Bounds
         // double[] y = new double[5];
@@ -93,17 +112,51 @@ public class Demo {
         // System.out.println("listA " + listA);
         // System.out.println("listB " + listB);
 
+        //deep copying
+        // for (int i = 0; i < listB.length; i++) {
+        //     listB[i] = listA[i];
+        // }
+
+
+
         // if(listB == listA){
         //     System.out.println("Equal");
         // }else{
         //     System.out.println("Not equal");
         // }
 
-        //deep copying
         // for (int i = 0; i < listB.length; i++) {
-        //     listB[i] = listA[i];
+        //     if(listA[i] == listB[i]){
+        //         System.out.println("Equal");
+        //     }
+        //     else{
+        //         System.out.println("Not equal");
+        //     }
         // }
 
+        // System.out.println("listA " + listA);
+        // System.out.println("listB " + listB);
+
+        //searching an array for a specific item
+        int location = 0;
+        boolean found = false;
+        int[] list = {5,10,15, 20, 25, 30, 35};
+        int searchItem = 100;
+
+        while(location<list.length && !found){
+            if(list[location] == searchItem){
+                found = true;
+            }else{
+                location++;
+            }
+
+        }
+
+        if (found) {
+            System.out.println("found in location " + location);
+        } else {
+            System.out.println("not found");
+        }
     }
 
 }
