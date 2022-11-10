@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseOrderArray",
+            "request": "launch",
+            "mainClass": "ReverseOrderArray",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverserOrder",
+            "request": "launch",
+            "mainClass": "ReverserOrder",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sample",
+            "request": "launch",
+            "mainClass": "Sample",
+            "projectName": "comprog_49e25d6d"
+        }
+    ]
+}
