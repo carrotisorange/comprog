@@ -5,8 +5,8 @@ public class Demo {
         Scanner scanner = new Scanner(System.in);
 
         // 1. declaring an array
-        // int num = 0;
-        // int[] num = new int[10];
+         //int num = 0;
+         int[] num = new int[5];
 
         // System.out.println(num);
         // 1. Another example of declaring an array

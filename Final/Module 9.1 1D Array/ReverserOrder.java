@@ -5,7 +5,7 @@ public class ReverserOrder {
         int sum, num0, num1, num2, num3, num4;
 
         System.out.println("Enter 5 integers");
-        num0 = scanner.nextInt();
+        num[0] = scanner.nextInt();
         num1 = scanner.nextInt();
         num2 = scanner.nextInt();
         num3 = scanner.nextInt();
