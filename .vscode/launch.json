@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Overloading",
+            "request": "launch",
+            "mainClass": "Overloading",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Overloading",
+            "request": "launch",
+            "mainClass": "Overloading.Overloading",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddNum",
+            "request": "launch",
+            "mainClass": "AddNum",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch AnotherProgram",
+            "request": "launch",
+            "mainClass": "AnotherProgram",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch DivideNumMethod",
+            "request": "launch",
+            "mainClass": "DivideNumMethod",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch DivideNum",
+            "request": "launch",
+            "mainClass": "DivideNum",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainMethod101",
+            "request": "launch",
+            "mainClass": "MainMethod101",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem3",
+            "request": "launch",
+            "mainClass": "Problem3",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem2",
+            "request": "launch",
+            "mainClass": "Problem2",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem1",
+            "request": "launch",
+            "mainClass": "Problem1",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem1",
+            "request": "launch",
+            "mainClass": "Midterm.Exam.Problem1",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
