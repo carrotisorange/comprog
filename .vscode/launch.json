@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Bautista_CommodityCode",
+            "request": "launch",
+            "mainClass": "Bautista_CommodityCode",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch CommodityCode",
+            "request": "launch",
+            "mainClass": "CommodityCode",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch SeriesProblem",
+            "request": "launch",
+            "mainClass": "SeriesProblem",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch SeriesProblem",
+            "request": "launch",
+            "mainClass": "Midterm.Activities.SeriesProblem",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
             "name": "Launch Overloading",
             "request": "launch",
             "mainClass": "Overloading",

@@ -6,7 +6,7 @@ public class Demo {
 
         // 1. declaring an array
          //int num = 0;
-         int[] num = new int[5];
+         //int[] num = new int[5];
 
         // System.out.println(num);
         // 1. Another example of declaring an array
@@ -19,23 +19,23 @@ public class Demo {
         // s[4] = "Arthur";
         // s[5] = "asd";
         // 2. alternate way to assign values to an array
-        // String[] s = {"Bruce", "Clark", "Barry", "Hal", "Arthur"};
+        //String[] s = {"Bruce", "Clark", "Barry", "Hal", "Arthur"};
         // 3. Printing out the value of an array
         // System.out.println(s[0]);
         // System.out.println(s[1]);
         // System.out.println(s[2]);
         // System.out.println(s[3]);
         // System.out.println(s[4]);
-        // System.out.println(s[5]);
+        //System.out.println(s[5]);
         // 3. alternate way to print the value of an array
-        // for (int i = 0; i < s.length; i++) {
-        // System.out.println(s[i]);
+        // for (int i = 0; i < 5; i++) {
+        //     System.out.println(s[i]);
         // }
 
         // other more advanced stuff we can do on arrays. consider this values
 
-        // double[] sales = new double[10];
-        // double largestSale, sum, average;
+        double[] sales = new double[10];
+        double largestSale, sum, average;
 
         // 1. Initializing an array to a specific value
         // Suppose that you want to initialize every element of the array sales to
@@ -43,7 +43,7 @@ public class Demo {
         // You can use the following loop:
 
         // for (int i = 0; i < sales.length; i++) {
-        // sales[i] = 10.00;
+        //     sales[i] = 10.00;
         // }
 
         // for (int i = 0; i < sales.length; i++) {
@@ -54,14 +54,14 @@ public class Demo {
         // sales.
         // For simplicity, we assume that the data is entered at the keyboard one number
         // per line.
-        // for (int i = 0; i < sales.length; i++) {
-        // System.out.print("Enter value to element: "+ i +" ");
-        // sales[i] = scanner.nextDouble();
-        // }
+        for (int i = 0; i < sales.length; i++) {
+            System.out.print("Enter value to element: "+ i +" ");
+            sales[i] = scanner.nextDouble();
+        }
 
-        // for (int i = 0; i < sales.length; i++) {
-        // System.out.println("Element "+ i +": "+sales[i]);
-        // }
+        for (int i = 0; i < sales.length; i++) {
+            System.out.println("Element "+ i +": "+sales[i]);
+        }
 
         // 3. Print an array: The following loop outputs the elements of array sales.
         // For simplicity, we assume that the output goes to the screen.
@@ -76,19 +76,19 @@ public class Demo {
         // The following Java code finds the sum of the elements of the array sales
         // (total sales)
         // and the average of the sale amount.
-        // sum = 0;
-        // average = 0;
-        // for (int i = 0; i < sales.length; i++) {
-        // sum = sum + sales[i];
+        sum = 0;
+        average = 0;
+        for (int i = 0; i < sales.length; i++) {
+        sum = sum + sales[i];
 
-        // if(sales.length !=0 ){
-        // average = sum/sales.length;
-        // }else{
-        // average = 0.0;
-        // }
-        // }
+        if(sales.length !=0 ){
+            average = sum/sales.length;
+        }else{
+            average = 0.0;
+        }
+        }
 
-        // System.out.printf("Sum is %f and average is %f", sum, average);
+        System.out.printf("Sum is %f and average is %f", sum, average);
 
         // 5. Determining the largest element in the array.
         // int maxIndex = 0;
@@ -139,24 +139,24 @@ public class Demo {
         // System.out.println("listB " + listB);
 
         // searching an array for a specific item
-        int index = 0;
-        boolean found = false;
-        int[] list = { 5, 10, 15, 20, 25, 30, 35 };
-        int searchItem = 10;
+        // int index = 0;
+        // boolean found = false;
+        // int[] list = { 5, 10, 15, 20, 25, 30, 35 };
+        // int searchItem = 10;
 
-        while (index < list.length && !found) {
-            if (list[index] == searchItem) {
-                found = true;
-            } else {
-                index++;
-            }
-        }
+        // while (index < list.length && !found) {
+        //     if (list[index] == searchItem) {
+        //         found = true;
+        //     } else {
+        //         index++;
+        //     }
+        // }
 
-        if (found) {
-            System.out.println("found in location " + index);
-        } else {
-            System.out.println("not found");
-        }
+        // if (found) {
+        //     System.out.println("found in location " + index);
+        // } else {
+        //     System.out.println("not found");
+        // }
     }
 
 }
