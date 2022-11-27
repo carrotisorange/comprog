@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NumberGame_Basa",
+            "request": "launch",
+            "mainClass": "NumberGame_Basa",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
             "name": "Launch Bautista_CommodityCode",
             "request": "launch",
             "mainClass": "Bautista_CommodityCode",
