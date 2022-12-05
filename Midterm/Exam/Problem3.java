@@ -1,9 +1,11 @@
+package Exam;
+
 import java.util.Scanner;
 
 public class Problem3 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
-
+        
         int number1, number2;
         char choice;
 
@@ -19,6 +21,7 @@ public class Problem3 {
 
             System.out.print("Do you want to continue y/n? ");
             choice = console.next().charAt(0);
+    
 
             System.out.println();
 

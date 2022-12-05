@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Problem3",
+            "request": "launch",
+            "mainClass": "Exam.Problem3",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem2",
+            "request": "launch",
+            "mainClass": "Exam.Problem2",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem1",
+            "request": "launch",
+            "mainClass": "Exam.Problem1",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayDemo",
+            "request": "launch",
+            "mainClass": "ArrayDemo",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Challenge3",
+            "request": "launch",
+            "mainClass": "Challenge3",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Challenge2",
+            "request": "launch",
+            "mainClass": "Challenge2",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Challenge1",
+            "request": "launch",
+            "mainClass": "Challenge1",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Locker",
+            "request": "launch",
+            "mainClass": "Locker",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch SampleFlagControlledWhileLoop",
+            "request": "launch",
+            "mainClass": "SampleFlagControlledWhileLoop",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
+            "name": "Launch CindyStocks_Basa",
+            "request": "launch",
+            "mainClass": "CindyStocks_Basa",
+            "projectName": "comprog_49e25d6d"
+        },
+        {
+            "type": "java",
             "name": "Launch NumberGame_Basa",
             "request": "launch",
             "mainClass": "NumberGame_Basa",

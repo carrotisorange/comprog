@@ -1,4 +1,11 @@
 {
 "code-runner.clearPreviousOutput": true,
-"code-runner.showExecutionMessage": false
+"code-runner.showExecutionMessage": false,
+"java.debug.settings.onBuildFailureProceed": true,
+"java.project.sourcePaths": [
+    "Midterm",
+    "Final/Module 10 Methods/Basic Stuff",
+    ".vscode",
+    "Final"
+]
 }

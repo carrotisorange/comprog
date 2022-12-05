@@ -5,12 +5,11 @@ public class ReverseOrderArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int[] num = new int[5];
+        int[] num = new int[100]; 
 
         int sum = 0;
 
         System.out.println("Enter five integers:");
-
 
         for (int i = 0; i < num.length; i++) {
             num[i] = scanner.nextInt();
